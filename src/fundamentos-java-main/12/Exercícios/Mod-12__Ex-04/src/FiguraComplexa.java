@@ -1,13 +1,13 @@
 
 
 /*
- * Representa uma figura complexa, isto é, é composta por outras figuras.
- * Repare que a própria figura complexa é também uma figura.
- * Além de ela SER uma figura (herança), ela TEM figuras (composição)
+ * Representa uma figura complexa, isto ï¿½, ï¿½ composta por outras figuras.
+ * Repare que a prï¿½pria figura complexa ï¿½ tambï¿½m uma figura.
+ * Alï¿½m de ela SER uma figura (heranï¿½a), ela TEM figuras (composiï¿½ï¿½o)
  */
 public class FiguraComplexa extends Figura {
 
-	/* Figuras que compõem a figura complexa */
+	/* Figuras que compï¿½em a figura complexa */
 	private Figura[] figuras;
 	
 	/* Construtor que recebe o array de figuras */
@@ -15,8 +15,8 @@ public class FiguraComplexa extends Figura {
 		this.figuras = figuras;
 	}
 	
-	/* Método sobrescrito para calcular a área total da figura.
-	 * A área total é a soma das áreas de todas as figuras.
+	/* Mï¿½todo sobrescrito para calcular a ï¿½rea total da figura.
+	 * A ï¿½rea total ï¿½ a soma das ï¿½reas de todas as figuras.
 	 */
 	public double calcularArea() {
 		double areaTotal = 0.0;
